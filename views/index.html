@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+	<title>0. Design</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+	<script type="text/javascript" src="/javascripts/paper-full.min.js"></script>
+	<script type="text/paperscript" src="/javascripts/draw.js" canvas="draw"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/javascripts/socket.js"></script>
+	<script src="/javascripts/index.js"></script>
+
+    <script type="text/javascript">
+    window.globals = { a:50, b:-50 };
+    window.onload = function() {
+        window.globals.lineTo();
+    }
+    </script>
+
+</head>
+
+<body onload="sampleFunction()">
+    <div class="row">
+        <div class="col-12">
+            <h1>Image Editing collaboration</h1>
+            
+        </div>
+
+    </div>
+    <div class="row ht-60">
+        <div class="col-3" id="left-col">
+            
+		</div>
+		<div class="col-9 canvas-div">
+			<canvas id="draw" resize></canvas>
+        </div>
+    </div>
+    <div>
+        <ul>
+            <li>Use cursor to draw right side</li>
+            <li>Click on image to add in canvas</li>
+            <li>Image can be dragged anywhere on the canvas</li>
+            <li>Live collaboration is available soon after they join the link</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

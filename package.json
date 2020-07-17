@@ -1,0 +1,18 @@
+{
+  "name": "phot-edit",
+  "subdomain": "phot-edit",
+  "version": "0.0.1-4",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "3.0.x",
+    "jade": "*",
+    "socket.io": "0.9.x"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
