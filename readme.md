@@ -4,7 +4,7 @@ Image Editing collaboration app, node.js with the Express.JS framework, socket.i
 
 ## Note
 
-* [https://boiling-lake-53305.herokuapp.com/](https://boiling-lake-53305.herokuapp.com/): View the project in production.  This is hosted in Heroku's free tier, so it may not be available 
+* [https://ancient-journey-34598.herokuapp.com/](https://ancient-journey-34598.herokuapp.com/): View the project in production.  This is hosted in Heroku's free tier, so it may not be available 
 
 ## Running in Local
 
