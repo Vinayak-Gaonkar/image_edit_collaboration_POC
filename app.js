@@ -13,7 +13,6 @@ app.configure(function () {
   app.set('port', process.env.PORT || 3000);
   app.engine('html', require('ejs').renderFile);
   app.set('view engine', 'html');
-  app.use(express.favicon());
   app.use(express.logger('dev'));
   app.use(express.bodyParser());
   app.use(express.methodOverride());
