@@ -17,7 +17,6 @@ Image Editing collaboration app, node.js with the Express.JS framework, socket.i
 * Basic features are implemented
 * Issues and bugs exist
 * Please find the demo video in demo folder
-* It was great learning experiance thanks for this task :smiley:
 ## Running in Local
 
 	git clone https://github.com/Gaonkar121632/image_edit_collaboration_POC
